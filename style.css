@@ -86,31 +86,28 @@ body {
   flex: 1 1 auto;
 }
 
-    .text-one {
-      position: absolute;
-      top: 40px;
-      left: 170px;
-    }
-    
-    .text-one h2 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-    
-    .text-one p {
-      font-size: 15px;
-      margin-bottom: 20px;
-    }
-    
-    .text-one a {
-      display: inline-block;
-      background: transparent;
-      color: #000;
-      text-decoration:underline;
-      font-size: 15px;
-      font-weight: bold;
-      margin-right: 10px;
-    }
+.text-one {
+    position: absolute;
+    top: 40px;
+    left: 170px;
+}
+.text-one h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.text-one p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.text-one a {
+    display: inline-block;
+    background: transparent;
+    color: #000;
+    text-decoration:underline;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
 
 .hero-two, .hero-four{
   display: flex;
