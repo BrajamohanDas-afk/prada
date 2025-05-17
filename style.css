@@ -39,10 +39,6 @@
   font-weight: bold;
   font-style: italic; }
 
-
-
-
-
 /* PRADA logo image */
 .navbar img {
   height: 27px; /* Adjust logo height */
@@ -74,10 +70,80 @@ body {
   margin: 0;
   cursor: pointer;
 }
+.all{
+  padding: 10px;
+}
+.hero-one {
+  display: flex;
+  position: relative;
+}
+    
+   .hero-one img {
+  /* display: block; */
+  max-width: 1640px;
+  height: auto;
+  margin: 10px auto;
+  flex: 1 1 auto;
+}
 
+    .text-one {
+      position: absolute;
+      top: 40px;
+      left: 170px;
+    }
+    
+    .text-one h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .text-one p {
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+    
+    .text-one a {
+      display: inline-block;
+      background: transparent;
+      color: #000;
+      text-decoration:underline;
+      font-size: 15px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
 
+.hero-two{
+  display: flex;
+}
+.cards img{
+  flex: 1;
+  max-width: 846px;
+  padding: 10px;
+}
 .search-icon {
       margin-right: auto;
       cursor: pointer;
       font-size: 18px;
     }
+
+/* Mobile menu button */
+.mobile-menu-btn {
+  display: none; /* Hidden on larger screens */
+}
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 15px;
+    height: 45px;
+  }
+  .mobile-menu-btn {
+  display:block /* Hidden on larger screens */
+}
+  .text-one {
+    top: 20px;
+    left: 20px;
+  }
+  
+  .text-one h2 {
+    font-size: 20px;
+  }
+}
