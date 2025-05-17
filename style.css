@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* locally downloaded fonts below ,  dont change  */
+@font-face {
+  font-family: 'GT-Super-Text';
+  src: url("/public/fonts/GT-Super-Text-Book.eot");
+  src: url("/public/fonts/GT-Super-Text-Book.eot?#iefix") format("embedded-opentype"), url("/public/fonts/GT-Super-Text-Book.woff") format("woff"), url("/public/fonts/GT-Super-Text-Book.woff2") format("woff2"), url("/public/fonts/GT-Super-Text-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GT-America';
+  src: url("/public/fonts/GT-America-Standard-Regular.eot");
+  src: url("/public/fonts/GT-America-Standard-Regular.eot?#iefix") format("embedded-opentype"), url("/public/fonts/GT-America-Standard-Regular.woff") format("woff"), url("/public/fonts/GT-America-Standard-Regular.woff2") format("woff2"), url("/public/fonts/GT-America-Standard-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GT-America';
+  src: url("/public/fonts/GT-America-Standard-Regular-Italic.eot");
+  src: url("/public/fonts/GT-America-Standard-Regular-Italic.eot?#iefix") format("embedded-opentype"), url("/public/fonts/GT-America-Standard-Regular-Italic.woff") format("woff"), url("/public/fonts/GT-America-Standard-Regular-Italic.woff2") format("woff2"), url("/public/fonts/GT-America-Standard-Regular-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'GT-America';
+  src: url("/public/fonts/GT-America-Standard-Bold.eot");
+  src: url("/public/fonts/GT-America-Standard-Bold.eot?#iefix") format("embedded-opentype"), url("/public/fonts/GT-America-Standard-Bold.woff") format("woff"), url("/public/fonts/GT-America-Standard-Bold.woff2") format("woff2"), url("/public/fonts/GT-America-Standard-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GT-America';
+  src: url("/public/fonts/GT-America-Standard-Bold-Italic.eot");
+  src: url("/public/fonts/GT-America-Standard-Bold-Italic.eot?#iefix") format("embedded-opentype"), url("/public/fonts/GT-America-Standard-Bold-Italic.woff") format("woff"), url("/public/fonts/GT-America-Standard-Bold-Italic.woff2") format("woff2"), url("/public/fonts/GT-America-Standard-Bold-Italic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+
+
+
+
+
+/* PRADA logo image */
+.navbar img {
+  height: 27px; /* Adjust logo height */
+  margin-right: 100px;
+  margin-left: 86px; /* Space between logo and links */
+}
+body {
+  font-family: "GT-America", "Helvetica", Helvetica, system, Arial, sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+   height: 50px;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+
+.search-icon {
+      margin-right: auto;
+      cursor: pointer;
+      font-size: 18px;
+    }
