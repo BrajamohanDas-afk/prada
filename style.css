@@ -73,12 +73,12 @@ body {
 .all{
   padding: 10px;
 }
-.hero-one {
+.hero-one, .hero-three, .hero-five {
   display: flex;
   position: relative;
 }
     
-   .hero-one img {
+   .hero-one img, .hero-two img, .hero-three img{
   /* display: block; */
   max-width: 1640px;
   height: auto;
@@ -112,7 +112,7 @@ body {
       margin-right: 10px;
     }
 
-.hero-two{
+.hero-two, .hero-four{
   display: flex;
 }
 .cards img{
